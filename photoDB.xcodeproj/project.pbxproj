@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4DAA44D219CD6040561839E3 /* Pods_photoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ADCFBC61518F5238204396 /* Pods_photoDB.framework */; };
 		8632A9952652D7A9003AEC07 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A9942652D7A9003AEC07 /* CreateProfileViewController.swift */; };
+		8632A9982652DD5B003AEC07 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A9972652DD5B003AEC07 /* FeedViewController.swift */; };
+		8632A99B2652DDFC003AEC07 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A99A2652DDFC003AEC07 /* CameraViewController.swift */; };
+		8632A99E2652DE0A003AEC07 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A99D2652DE0A003AEC07 /* SettingsViewController.swift */; };
 		86C4731A2652D0B200490651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C473192652D0B200490651 /* AppDelegate.swift */; };
 		86C4731C2652D0B200490651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4731B2652D0B200490651 /* SceneDelegate.swift */; };
 		86C473212652D0B200490651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C4731F2652D0B200490651 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 		21ADCFBC61518F5238204396 /* Pods_photoDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photoDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42ABE6529E2D5D776D18F969 /* Pods-photoDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoDB.release.xcconfig"; path = "Target Support Files/Pods-photoDB/Pods-photoDB.release.xcconfig"; sourceTree = "<group>"; };
 		8632A9942652D7A9003AEC07 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		8632A9972652DD5B003AEC07 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8632A99A2652DDFC003AEC07 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		8632A99D2652DE0A003AEC07 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		86C473162652D0B200490651 /* photoDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C473192652D0B200490651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C4731B2652D0B200490651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 			children = (
 				86C4735A2652D5A100490651 /* LoginViewController.swift */,
 				8632A9942652D7A9003AEC07 /* CreateProfileViewController.swift */,
+				8632A9972652DD5B003AEC07 /* FeedViewController.swift */,
+				8632A99A2652DDFC003AEC07 /* CameraViewController.swift */,
+				8632A99D2652DE0A003AEC07 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -280,8 +289,11 @@
 			files = (
 				8632A9952652D7A9003AEC07 /* CreateProfileViewController.swift in Sources */,
 				86C4735B2652D5A100490651 /* LoginViewController.swift in Sources */,
+				8632A99E2652DE0A003AEC07 /* SettingsViewController.swift in Sources */,
+				8632A9982652DD5B003AEC07 /* FeedViewController.swift in Sources */,
 				86C4731A2652D0B200490651 /* AppDelegate.swift in Sources */,
 				86C4731C2652D0B200490651 /* SceneDelegate.swift in Sources */,
+				8632A99B2652DDFC003AEC07 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

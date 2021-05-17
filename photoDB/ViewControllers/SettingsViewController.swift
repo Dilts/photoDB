@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  SettingsViewController.swift
 //  photoDB
 //
 //  Created by Brian Dilts on 5/17/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,8 +16,8 @@ class LoginViewController: UIViewController {
     }
     
 
-
-    @IBAction func loginTapped(_ sender: Any) {
+    @IBAction func signOutTapped(_ sender: Any) {
     }
     
+
 }
