@@ -20,6 +20,8 @@
 		86C4732F2652D15500490651 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86C4732E2652D15500490651 /* GoogleService-Info.plist */; };
 		86C4735B2652D5A100490651 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4735A2652D5A100490651 /* LoginViewController.swift */; };
 		86C5D0FD26531FD3005DADEB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C5D0FC26531FD3005DADEB /* MainTabBarController.swift */; };
+		86C5D100265328BD005DADEB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C5D0FF265328BD005DADEB /* Photo.swift */; };
+		86C5D10326532913005DADEB /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C5D10226532913005DADEB /* PhotoService.swift */; };
 		86DA476D2652EA61000E1927 /* PhotoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA476C2652EA61000E1927 /* PhotoUser.swift */; };
 		86DA47702652EAA5000E1927 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA476F2652EAA5000E1927 /* UserService.swift */; };
 		86DA47732652EEC5000E1927 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA47722652EEC5000E1927 /* Constants.swift */; };
@@ -43,6 +45,8 @@
 		86C4732E2652D15500490651 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86C4735A2652D5A100490651 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		86C5D0FC26531FD3005DADEB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		86C5D0FF265328BD005DADEB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		86C5D10226532913005DADEB /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
 		86DA476C2652EA61000E1927 /* PhotoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUser.swift; sourceTree = "<group>"; };
 		86DA476F2652EAA5000E1927 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		86DA47722652EEC5000E1927 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 			children = (
 				86DA476F2652EAA5000E1927 /* UserService.swift */,
 				86DA47752652FDD3000E1927 /* LocalStorageService.swift */,
+				86C5D10226532913005DADEB /* PhotoService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				86DA476C2652EA61000E1927 /* PhotoUser.swift */,
+				86C5D0FF265328BD005DADEB /* Photo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,6 +314,8 @@
 				86DA47702652EAA5000E1927 /* UserService.swift in Sources */,
 				8632A99E2652DE0A003AEC07 /* SettingsViewController.swift in Sources */,
 				86DA476D2652EA61000E1927 /* PhotoUser.swift in Sources */,
+				86C5D10326532913005DADEB /* PhotoService.swift in Sources */,
+				86C5D100265328BD005DADEB /* Photo.swift in Sources */,
 				86DA47732652EEC5000E1927 /* Constants.swift in Sources */,
 				8632A9982652DD5B003AEC07 /* FeedViewController.swift in Sources */,
 				86C4731A2652D0B200490651 /* AppDelegate.swift in Sources */,
