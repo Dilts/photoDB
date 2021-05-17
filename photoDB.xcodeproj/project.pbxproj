@@ -19,6 +19,9 @@
 		86C473262652D0BC00490651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C473242652D0BC00490651 /* LaunchScreen.storyboard */; };
 		86C4732F2652D15500490651 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86C4732E2652D15500490651 /* GoogleService-Info.plist */; };
 		86C4735B2652D5A100490651 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4735A2652D5A100490651 /* LoginViewController.swift */; };
+		86DA476D2652EA61000E1927 /* PhotoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA476C2652EA61000E1927 /* PhotoUser.swift */; };
+		86DA47702652EAA5000E1927 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA476F2652EAA5000E1927 /* UserService.swift */; };
+		86DA47732652EEC5000E1927 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA47722652EEC5000E1927 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		86C473272652D0BC00490651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86C4732E2652D15500490651 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86C4735A2652D5A100490651 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86DA476C2652EA61000E1927 /* PhotoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUser.swift; sourceTree = "<group>"; };
+		86DA476F2652EAA5000E1927 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		86DA47722652EEC5000E1927 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D4BB9AF99FCFB02267C8E248 /* Pods-photoDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photoDB.debug.xcconfig"; path = "Target Support Files/Pods-photoDB/Pods-photoDB.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +115,7 @@
 		86C473552652D50F00490651 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				86DA476F2652EAA5000E1927 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -116,6 +123,7 @@
 		86C473562652D52700490651 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				86DA47722652EEC5000E1927 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 		86C473582652D54000490651 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				86DA476C2652EA61000E1927 /* PhotoUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -289,7 +298,10 @@
 			files = (
 				8632A9952652D7A9003AEC07 /* CreateProfileViewController.swift in Sources */,
 				86C4735B2652D5A100490651 /* LoginViewController.swift in Sources */,
+				86DA47702652EAA5000E1927 /* UserService.swift in Sources */,
 				8632A99E2652DE0A003AEC07 /* SettingsViewController.swift in Sources */,
+				86DA476D2652EA61000E1927 /* PhotoUser.swift in Sources */,
+				86DA47732652EEC5000E1927 /* Constants.swift in Sources */,
 				8632A9982652DD5B003AEC07 /* FeedViewController.swift in Sources */,
 				86C4731A2652D0B200490651 /* AppDelegate.swift in Sources */,
 				86C4731C2652D0B200490651 /* SceneDelegate.swift in Sources */,

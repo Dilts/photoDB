@@ -43,7 +43,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="gVI-D4-G6K">
             <objects>
-                <tabBarController id="4oK-hD-ize" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="mainTabBarController" id="4oK-hD-ize" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="grv-M7-Ur5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
