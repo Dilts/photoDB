@@ -13,6 +13,7 @@
 		8632A99B2652DDFC003AEC07 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A99A2652DDFC003AEC07 /* CameraViewController.swift */; };
 		8632A99E2652DE0A003AEC07 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A99D2652DE0A003AEC07 /* SettingsViewController.swift */; };
 		864B7448265C1D17003B1480 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B7447265C1D17003B1480 /* PhotoCell.swift */; };
+		864B744B265C34D3003B1480 /* ImageCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B744A265C34D3003B1480 /* ImageCacheService.swift */; };
 		86C4731A2652D0B200490651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C473192652D0B200490651 /* AppDelegate.swift */; };
 		86C4731C2652D0B200490651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4731B2652D0B200490651 /* SceneDelegate.swift */; };
 		86C473212652D0B200490651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C4731F2652D0B200490651 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		8632A99A2652DDFC003AEC07 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		8632A99D2652DE0A003AEC07 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		864B7447265C1D17003B1480 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		864B744A265C34D3003B1480 /* ImageCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheService.swift; sourceTree = "<group>"; };
 		86C473162652D0B200490651 /* photoDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C473192652D0B200490651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C4731B2652D0B200490651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				86DA476F2652EAA5000E1927 /* UserService.swift */,
 				86DA47752652FDD3000E1927 /* LocalStorageService.swift */,
 				86C5D10226532913005DADEB /* PhotoService.swift */,
+				864B744A265C34D3003B1480 /* ImageCacheService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				86C5D10326532913005DADEB /* PhotoService.swift in Sources */,
 				86C5D100265328BD005DADEB /* Photo.swift in Sources */,
 				86DA47732652EEC5000E1927 /* Constants.swift in Sources */,
+				864B744B265C34D3003B1480 /* ImageCacheService.swift in Sources */,
 				8632A9982652DD5B003AEC07 /* FeedViewController.swift in Sources */,
 				86C4731A2652D0B200490651 /* AppDelegate.swift in Sources */,
 				86C4731C2652D0B200490651 /* SceneDelegate.swift in Sources */,
